@@ -65,9 +65,9 @@ public class ClienteFichero
             oos.writeObject(mensaje);
 
             // Se abre un fichero para empezar a copiar lo que se reciba.
-            FileOutputStream fos = new FileOutputStream(mensaje.nombreFichero
+             FileOutputStream fos = new FileOutputStream(mensaje.nombreFichero
                     + "_copia");
-
+             
             // Se crea un ObjectInputStream del socket para leer los mensajes
             // que contienen el fichero.
             ObjectInputStream ois = new ObjectInputStream(socket
