@@ -36,7 +36,7 @@ public class ClienteFichero
         ClienteFichero cf = new ClienteFichero();
         System.out.println("Ingrese el nombre del archivo que desea transferir: \n");
         String archivo=leer.next();
-        cf.pide("C:/Users/Santi/Desktop/chatred/"+archivo+".txt", "169.254.142.127", 35557);
+        cf.pide("C:/Users/Santi/Desktop/chatred/"+archivo+".txt", "169.254.199.89", 35557);
     }
 
     /**
